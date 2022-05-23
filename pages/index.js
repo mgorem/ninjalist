@@ -8,13 +8,12 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div>
-      <Navbar />
-      <h1>Homepage</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+      <h1 className={styles.title}>Homepage</h1>
+      <p className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+      <p className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       <Link href="/ninjas">
-      <a>See Ninja Listing</a></Link>
-      <Footer />
+        <a className={styles.btn}>See Ninja Listing</a>
+      </Link>
     </div>
   )
 }
