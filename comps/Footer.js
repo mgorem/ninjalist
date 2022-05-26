@@ -1,7 +1,8 @@
 const Footer = () => {
+    const yearNow = new Date().getFullYear()
     return ( 
         <footer>
-            Copyright 2022 Ninjalist
+            Copyright { yearNow } Ninjalist
         </footer>
      );
 }
